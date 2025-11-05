@@ -1,0 +1,24 @@
+{
+  "name": "section_21_building_complete_backend",
+  "version": "1.0.0",
+  "description": "a project management application for beginners",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "keywords": [
+    "udemy",
+    "course",
+    "Hitesh",
+    "Chaudhary",
+    "Backend",
+    "API",
+    "creation"
+  ],
+  "author": "Hritwiz Kamat",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}

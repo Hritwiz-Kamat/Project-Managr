@@ -6,7 +6,6 @@ import { ApiError } from "../utils/api-error.js";
 import { asyncHandler } from "../utils/async-handler.js";
 import mongoose from "mongoose";
 import { AvailableUserRole, UserRolesEnum } from "../utils/constants.js";
-import { json } from "stream/consumers";
 
 const createProject = asyncHandler(async (req, res) => {
     const { name, description } = req.body;

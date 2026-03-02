@@ -22,7 +22,7 @@ import {
 import { AvailableUserRole, UserRolesEnum } from "../utils/constants.js";
 
 const router = Router();
-router.use(verifyJWT); // This mean all the routers below this line will by default run verifyJWT as the 1st middleware
+router.use(verifyJWT); // This means all the routers below this line will by default run verifyJWT as the 1st middleware
 
 router
     .route("/")

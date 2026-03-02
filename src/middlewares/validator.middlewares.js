@@ -2,7 +2,7 @@ import { validationResult } from "express-validator";
 import { ApiError } from "../utils/api-error.js";
 
 export const validate = (req, res, next) => {
-    const errors = validationResult(req); // errors is and array
+    const errors = validationResult(req); // errors is an array
 
     // errors contains object with this format
     // [

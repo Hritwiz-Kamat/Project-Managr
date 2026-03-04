@@ -44,7 +44,7 @@ const taskSchema = new Schema(
                     size: Number,
                 },
             ],
-            default: [], // empty Array
+            default: [], // empty Array by default
         },
     },
 
